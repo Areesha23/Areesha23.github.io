@@ -8,3 +8,7 @@ A:link {color: rgb(1, 5, 34);}
 A:visited {color: rgb(181, 170, 234);}
 A:active {tcolor: rgb(113, 0, 0);}
 A:hover {color: rgb(184, 65, 65);}
+
+table, th, td {
+    border: 1px solid;
+  }
