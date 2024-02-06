@@ -9,7 +9,6 @@ A:visited {color: rgb(157, 139, 244);}
 A:active {tcolor: rgb(113, 0, 0);}
 A:hover {color: rgb(184, 65, 65);}
 
-
 table, th, td {
-    border: 2px;
-    width: auto;}
+    border: 1px solid;
+  }
