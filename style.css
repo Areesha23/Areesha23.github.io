@@ -1,19 +1,6 @@
-Body {background-color: rgb(245, 216, 239); color: rgb(80, 67, 112); font-size: 100%; font-family: Arial;
-    margin-left: 15; margin-top: 15; margin-bottom: 15; margin-right: 15;}
-h1{color: rgb(60, 26, 92); font-size: 80; font-family: 'Times New Roman', Times, serif;}
-h2{color: rgb(114, 51, 174); font-size: 40; font-family: 'Times New Roman', Times, serif;}
-p{color: rgb(0, 0, 0); font-size: 20; font-family: 'Times New Roman', Times, serif;}
 
-A:link {color: rgb(0, 14, 119);}
-A:visited {color: rgb(157, 139, 244);}
-A:active {tcolor: rgb(113, 0, 0);}
-A:hover {color: rgb(184, 65, 65);}
-
-table, th, td {
-    border: 1px solid;
-  }
-
-  nav{
+head
+nav{
     background-color: #889ebd;
     position: absolute;
     width: 150px;
@@ -28,3 +15,20 @@ table, th, td {
     nav a:hover{
     color: #edcdff;
     }
+head
+
+Body {background-color: rgb(245, 216, 239); color: rgb(80, 67, 112); font-size: 100%; font-family: Arial;
+    margin-left: 15; margin-top: 15; margin-bottom: 15; margin-right: 15;}
+h1{color: rgb(60, 26, 92); font-size: 90; font-family: 'Times New Roman', Times, serif;}
+h2{color: rgb(114, 51, 174); font-size: 40; font-family: 'Times New Roman', Times, serif;}
+p{color: rgb(0, 0, 0); font-size: 20; font-family: 'Times New Roman', Times, serif;}
+
+A:link {color: rgb(0, 14, 119);}
+A:visited {color: rgb(157, 139, 244);}
+A:active {tcolor: rgb(113, 0, 0);}
+A:hover {color: rgb(184, 65, 65);}
+
+table, th, td {
+    border: 1px solid;
+  }
+
