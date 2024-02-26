@@ -15,6 +15,13 @@
             <h1><a href="https://www.linkedin.com/in/areesha-alamgir-677107257/">Areesha Alamgir </a> </h1></div>
         
             <button id="EnterButton" type="button" >Name!</button>
+            <script>
+            document.getElementById("EnterButton").onclick=function(){
+            var name=prompt("Enter your name here: ");
+            if (name!null && name!=""){
+            document.getElementById("myname").innerHTML="Welcome" + name;
+            }
+            };</script>
             
           
 <link rel="stylesheet" href="style.css">
@@ -28,6 +35,12 @@
     src="Me.JPG" 
     onclick="bigimg()" 
     id="meimg"/>
+
+    <script>
+    img=document.getElementById("meimg");
+    function bigimg() {
+    img.style.transform="scale(1.5)";}   
+    </script>
 
 
 
