@@ -1,61 +1,82 @@
 <!DOCTYPE html>
-<head>
+<html>
     <title>
-        <H1><a href="https://www.linkedin.com/in/areesha-alamgir-677107257/" >Areesha Alamgir </a></H1>
+      
     </title>
-</head>
+
  
 <body>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/640px-Banana-Single.jpg" 
-onclick="bigimg()" 
-id="meimg"/>
+<link rel="stylesheet" href="style.css">
+    <H1><a href="https://www.linkedin.com/in/areesha-alamgir-677107257/" id="myname">Areesha Alamgir </a> </H1>
+    
+        <form>
+            <label for="name">name:</label>
+            <input type="text" id="name" name="name">
+        </form>
 
-<script>img=document.getElementById("meimg");
+    
+        <button onclick="nameprompt()" id="name">Enter</button>
+
+
+        <script>
+        function=nameprompt(){
+            document.getElementById("myname").innerHTML=name
+        }
+        </script>
+
+
+
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/640px-Banana-Single.jpg" 
+    onclick="bigimg()" 
+    id="meimg"/>
+
+        <script>
+        img=document.getElementById("meimg");
         function bigimg() {
         img.style.transform="scale(2.0)";}
         </script>
 
-<link rel="stylesheet" href="style.css">
-
-
 <hr>
-<h2>Education</h2>
-<ol><p><u><li>Erindale Secondary School </u><em>(2017-2021)</em></p></li>
-    <p><u><li>Toronto Metropolitan University</u> <em>(2021-2025)</em></p></li>
-</ol>
+    <h2>Education</h2>
+        <ol><p><u><li>Erindale Secondary School </u><em>(2017-2021)</em></p></li>
+        <p><u><li>Toronto Metropolitan University</u> <em>(2021-2025)</em></p></li>
+        </ol>
 
 <hr>
 
-<h2>Program Description </h2>
-<ul>
-<p><em><li><a href="https://www.torontomu.ca/calendar/2023-2024/programs/trsm/business_tech/#!accordion-1595938804212-full-time--four-year-program">Business Technology Management</a></em><u></u></p></li>
-<p>This program revolves around the core concepts of traditional business while intergrating many information technology courses as well. The many universal business courses include Accounting, Marketing, Economics to name a few. The program also includes info technology courses that teach the students languages like R, Python, and SQL.</p>
-<p><em><li><a href="https://www.torontomu.ca/calendar/2023-2024/courses/information-technology-management/ITM/618/">Most useful course </a></em></p></li>
-<p>A course I found most useful during my 3 years was ITM 618. This course revolves around R and teaches students fundementals of data mangement. It allows students to conceptualize enterprise level data storage and ways to manage and organizesuch data.</p>
-</ul>
+    <h2>Program Description </h2>
+        <ul>
+        <p><em><li><a href="https://www.torontomu.ca/calendar/2023-2024/programs/trsm/business_tech/#!accordion-1595938804212-full-time--four-year-program">Business Technology Management</a></em><u></u></p></li>
+        <p>This program revolves around the core concepts of traditional business while intergrating many information technology courses as well. The many universal business courses include Accounting, Marketing, Economics to name a few. The program also includes info technology courses that teach the students languages like R, Python, and SQL.</p>
+        <p><em><li><a href="https://www.torontomu.ca/calendar/2023-2024/courses/information-technology-management/ITM/618/">Most useful course </a></em></p></li>
+        <p>A course I found most useful during my 3 years was ITM 618. This course revolves around R and teaches students fundementals of data mangement. It allows students to conceptualize enterprise level data storage and ways to manage and organizesuch data.</p>
+        </ul>
 
 <hr>
 
-<h2>Awards </h2>
-<ul>
-    <li>Greaduated high school with honours</li>
-</ul>
+    <h2>Awards </h2>
+        <ul>
+        <li>Greaduated high school with honours</li>
+        </ul>
 
 
 <hr>
 
-<h2>Extra Curriculars </h2>
-<ul>
-    <p><li><em><a href="https://globalmentorship.org/">Global Mentorship Initiative </a></p></em></li>
-    <p>Participated in a custom mentorship program designed to strengthen skills in networking, community
+    <h2 id="ec">Extra Curriculars </h2>
+        <ul>
+        <p><li><em><a href="https://globalmentorship.org/">Global Mentorship Initiative </a></p></em></li>
+        <p>Participated in a custom mentorship program designed to strengthen skills in networking, community
         building, and job-readiness for the tech sector</p>
     
-    <p><li><em><a href="https://www.wicys.org/">Women in Cybersecurity (WiCyS) Global </a></p></em></li>
-    <p>Member of WiCyS Global Online Community and student chapter member at Toronto Metropolitan
+        <p><li><em><a href="https://www.wicys.org/">Women in Cybersecurity (WiCyS) Global </a></p></em></li>
+        <p>Member of WiCyS Global Online Community and student chapter member at Toronto Metropolitan
         University</p>
-</ul>
+        </ul>
+
+
     
-<table>
+    <table>
     <tr>
         <td><div class="desc"><p>Check out my program!</p></div></td> 
         <td> <div class="links"> <a href="https://www.torontomu.ca/programs/undergraduate/business-technology-management/"> Here!</a></div> </td>
@@ -67,5 +88,7 @@ id="meimg"/>
     </tr>
     </table>
 
-    </body>
-    </html>
+
+
+ </body>
+ </html>

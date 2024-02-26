@@ -12,3 +12,19 @@ A:hover {color: rgb(184, 65, 65);}
 table, th, td {
     border: 1px solid;
   }
+
+  nav{
+    background-color: #889ebd;
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    }
+    nav a{
+    padding: 15px;
+    display: block;
+    font-size: 25pt;
+    color: #86658c;
+    }
+    nav a:hover{
+    color: #edcdff;
+    }
