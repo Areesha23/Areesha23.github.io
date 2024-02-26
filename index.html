@@ -10,18 +10,29 @@
         </ul>
     <nav>
     
-    <H1  id="myname"><a href="https://www.linkedin.com/in/areesha-alamgir-677107257/">Areesha Alamgir </a> </H1>
-
-    <button onclick="nameprompt()" id="name">Name!</button>
-
-
-    <script>
-    function=nameprompt(){
-        var name=prompt("Enter your name here: ");
-        if (name!null && name!=""){
-        document.getElementById("myname").innerHTML=name
-    }}
-    </script>
+      
+        <div id=myname>
+            <H1><a href="https://www.linkedin.com/in/areesha-alamgir-677107257/">Areesha Alamgir </a> </H1></div>
+        
+            <button id="EnterButton" type="button" >Name!</button>
+        
+        
+            <script>
+                document.getElementById("EnterButton").onclick=function(){
+                var name=prompt("Enter your name here: ");
+                if (name!null && name!=""){
+                document.getElementById("myname").innerHTML=name;
+            }};
+            </script>
+            
+            <button id="EnterButton" type="button" >Name!</button>
+                    <script>
+                function=nameprompt(){
+                    var name=prompt("Enter your name here: ");
+                    if name!null && name!=""{
+                    document.getElementById("myname").innerHTML=name
+                }}
+                </script>
           
 <link rel="stylesheet" href="style.css">
        
