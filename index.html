@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <div id="dropdown">
     <nav>
-        <ul>
+         <ul>
          <a href="index.html">Home</a>
-         <a href="extracurriculars.html">Extra curriculars</a>
+            <button class="drop" onmouseover="showDropdown('ecDropdown')" 
+            onmouseout="hideDropdown('ecDropdown')">Extra curriculars</button>
+            <div class="dropdown-content" id="ecDropdown" 
+            onmouseover="showDropdown('ecDropdown')" 
+            onmouseout="hideDropdown('ecDropdown')">
+            <div><a href="extracurriculars.html">Extra curriculars</a></div>
+            <div><a href="testing.html">test</a></div>
+            </div>
          <a href="">References</a>
          <a href="">Contact</a>
-        </ul>
-    <nav>         
+         </ul>
+        </div>
+        </nav>
+        </head>
+
+
+    <nav>  
+    </div>       
 <link rel="stylesheet" href="style.css">
 <script src="main.js"></script>
 
@@ -26,10 +40,10 @@
                 document.getElementById("EnterButton").onclick = function(){
                 var name=prompt("Enter your name here: ");
                 if (name != null && name != "") {
-                    document.getElementById("myname").innerHTML = "Welcome" + name;
+                    document.getElementById("myname").innerHTML = "Welcome " + name;
                 }
                 };</script>
-                
+
     <img 
     src="Me.JPG" 
     onclick="bigimg()" 
