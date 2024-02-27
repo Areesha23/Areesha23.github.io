@@ -11,16 +11,18 @@
     <nav>
     
       
-        <div id=myname>
-            <h1><a href="https://www.linkedin.com/in/areesha-alamgir-677107257/">Areesha Alamgir </a> </h1></div>
+    <div id=myname>
+        <h1>Areesha Alamgir </h1>
+    </div>
         
             <button id="EnterButton" type="button" >Name!</button>
+
             <script>
-            document.getElementById("EnterButton").onclick=function(){
-            var name=prompt("Enter your name here: ");
-            if (name!null && name!=""){
-            document.getElementById("myname").innerHTML="Welcome" + name;
-            }
+            document.getElementById("EnterButton").onclick = function(){
+                var name=prompt("Enter your name here: ");
+                if (name != null && name != "") {
+                    document.getElementById("myname").innerHTML = "Welcome" + name;
+                }
             };</script>
             
           
