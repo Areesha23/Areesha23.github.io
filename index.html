@@ -3,36 +3,33 @@
 <head>
     <nav>
         <ul>
-         <a href="#myname">Home</a>
-         <a href="#ec">Extra curriculars</a>
+         <a href="index.html">Home</a>
+         <a href="extracurriculars.html">Extra curriculars</a>
          <a href="">References</a>
          <a href="">Contact</a>
         </ul>
-    <nav>
-    
-      
+    <nav>         
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+
+</head>
+
+ 
+<body>  
     <div id=myname>
         <h1>Areesha Alamgir </h1>
     </div>
         
             <button id="EnterButton" type="button" >Name!</button>
 
-            <script>
-            document.getElementById("EnterButton").onclick = function(){
+                <script>
+                document.getElementById("EnterButton").onclick = function(){
                 var name=prompt("Enter your name here: ");
                 if (name != null && name != "") {
                     document.getElementById("myname").innerHTML = "Welcome" + name;
                 }
-            };</script>
-            
-          
-<link rel="stylesheet" href="style.css">
-<script src="main.js"></script>
-       
-</head>
-
- 
-<body>
+                };</script>
+                
     <img 
     src="Me.JPG" 
     onclick="bigimg()" 
@@ -71,19 +68,6 @@
 
 
 <hr>
-
-    <h2 id="ec">Extra Curriculars </h2>
-        <ul>
-        <p><li><em><a href="https://globalmentorship.org/">Global Mentorship Initiative </a></p></em></li>
-        <p>Participated in a custom mentorship program designed to strengthen skills in networking, community
-        building, and job-readiness for the tech sector</p>
-    
-        <p><li><em><a href="https://www.wicys.org/">Women in Cybersecurity (WiCyS) Global </a></p></em></li>
-        <p>Member of WiCyS Global Online Community and student chapter member at Toronto Metropolitan
-        University</p>
-        </ul>
-
-
     
     <table>
     <tr>
