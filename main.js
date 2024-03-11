@@ -1,5 +1,6 @@
 
 
+// show dropdown
 function showDropdown(dropdownId) {
     var dropdown = document.getElementById(dropdownId);
     dropdown.style.display = 'block';
@@ -8,17 +9,4 @@ function showDropdown(dropdownId) {
 // hide dropdown
 function hideDropdown(dropdownId) {
     var dropdown = document.getElementById(dropdownId);
-    dropdown.style.display = 'none';
-}    
-
-function showDropdown(dropdownId) {
-    var dropdown = document.getElementById(dropdownId);
-    dropdown.style.display = 'block';
-}
-
-// hide dropdown
-function hideDropdown(dropdownId) {
-    var dropdown = document.getElementById(dropdownId);
-    dropdown.style.display = 'none';
-}
-
+    dropdown.style.display = 'none';}

@@ -1,38 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <div id="dropdown">
-    <nav>
-         <ul>
-         <a href="index.html">Home</a>
-            <button class="drop" onmouseover="showDropdown('ecDropdown')" 
-            onmouseout="hideDropdown('ecDropdown')">Extra curriculars</button>
-            <div class="dropdown-content" id="ecDropdown" 
-            onmouseover="showDropdown('ecDropdown')" 
-            onmouseout="hideDropdown('ecDropdown')">
-            <div><a href="extracurriculars.html">Extra curriculars</a></div>
-            <div><a href="testing.html">test</a></div>
-            </div>
-         <a href="">References</a>
-         <a href="">Contact</a>
-         </ul>
+    <div class="dropdown">
+        <a href="index.html">Home </a>
+        <button class="dropbtn">Experiences </button>
+        <div class="dropdown-content">
+          <a href="#"></a>
+          <a href="extracurriculars.html">Extracurriculars </a>
+          <a href="testing.html">Jobs </a>
         </div>
-        </nav>
+        <a href="">References </a>
+        <a href="">Contact </a>   
+      </div>
 
-        <script>
-        function showDropdown(dropdownId) {
-            var dropdown = document.getElementById(dropdownId);
-            dropdown.style.display = 'block';
-        }
-        
-        // hide dropdown
-        function hideDropdown(dropdownId) {
-            var dropdown = document.getElementById(dropdownId);
-            dropdown.style.display = 'none';
-        }    
-        </script>
-    <nav>  
-    </div>       
+
 <link rel="stylesheet" href="style.css">
 <script src="main.js"></script>
 
