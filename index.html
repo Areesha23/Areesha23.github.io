@@ -26,12 +26,14 @@
  
  
 <body> 
-        <!-- Accessibility Controls -->
-        <div id="accessibilityControls">
-            <button id="speakButton">Read Aloud</button>
-            <button id="increaseFont">Increase Font Size</button>
-            <button id="decreaseFont">Decrease Font Size</button>
-        </div> 
+    <div class="container">
+        <div class="buttons">
+          <span class="btn" onclick="document.body.style.fontSize = '' " >A</span>
+          <span class="btn" onclick="document.body.style.fontSize = '1.5em' ">A</span>
+          <span class="btn" onclick="document.body.style.fontSize = '2em' ">A</span>
+        </div>
+        </div>
+    <button class="change-color-button" onclick="changeColor()"> High Contrast Button </button>
     <div id=myname>
         <h1>Areesha Alamgir </h1>
     </div>
@@ -47,7 +49,8 @@
                 };</script>
 
     <img 
-    src="Me.JPG" 
+    src="Me.JPG"
+    alt="Image of Areesha Allawala in a blue blouse"
     onclick="bigimg()" 
     id="meimg"/>
 

@@ -25,3 +25,8 @@ window.onclick = function(e) {
   slider.oninput = function() {
     output.innerHTML = this.value;
   }
+
+function changeColor() {
+      document.body.style.backgroundColor = "#000";
+      document.body.style.color = "#fff";
+  }
